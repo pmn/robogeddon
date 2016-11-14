@@ -1,0 +1,1 @@
+on issues.opened then comment("HELLO IT ME GERRY THE GIRAFFE");
