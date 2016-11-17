@@ -1,1 +1,3 @@
 on issues.opened then comment("HELLO IT ME GERRY THE GIRAFFE");
+
+on pull_request.opened then create-issue({title: "wee woo wee woo", body: "SUMONE DID A PR"})
